@@ -46,6 +46,11 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "우우 (WooWoo)", url: "https://potfolio-ace-761a.vercel.app" }],
   creator: "우우 (WooWoo)",
+  verification: {
+    other: {
+      "naver-site-verification": "09120ee611bae9cb7415b19fc211979417f8f5f1",
+    },
+  },
   openGraph: {
     type: "website",
     locale: "ko_KR",
@@ -117,6 +122,7 @@ export default function RootLayout({
             }),
           }}
         />
+        <meta name="naver-site-verification" content="09120ee611bae9cb7415b19fc211979417f8f5f1" />
       </head>
       <body
         className={`${inter.variable} ${notoSansKR.variable} ${geistMono.variable}`}
