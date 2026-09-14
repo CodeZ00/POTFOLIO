@@ -9,8 +9,8 @@ import { Send, CheckCircle2, AlertCircle, Loader2 } from "lucide-react";
 const schema = z.object({
   name: z.string().min(2, "이름/기업명을 2자 이상 입력해주세요."),
   email: z.string().email("올바른 이메일 주소를 입력해주세요."),
-  type: z.enum(["lecture", "mentoring", "outsourcing", "other"], {
-    required_error: "문의 유형을 선택해주세요.",
+  type: z.enum(["lecture", "mentoring", "outsourcing", "other"] as const, {
+    error: "문의 유형을 선택해주세요.",
   }),
   message: z.string().min(20, "메시지를 20자 이상 입력해주세요."),
 });
