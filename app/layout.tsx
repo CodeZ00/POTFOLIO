@@ -25,7 +25,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://woowoo.dev"),
+  metadataBase: new URL("https://potfolio-ace-761a.vercel.app"),
   title: {
     default: "우우(WooWoo) - 딥러닝·LLM Agent 개발자 & 테크 강사",
     template: "%s | 우우(WooWoo)",
@@ -44,12 +44,12 @@ export const metadata: Metadata = {
     "RAG",
     "풀스택 개발",
   ],
-  authors: [{ name: "우우 (WooWoo)", url: "https://woowoo.dev" }],
+  authors: [{ name: "우우 (WooWoo)", url: "https://potfolio-ace-761a.vercel.app" }],
   creator: "우우 (WooWoo)",
   openGraph: {
     type: "website",
     locale: "ko_KR",
-    url: "https://woowoo.dev",
+    url: "https://potfolio-ace-761a.vercel.app",
     title: "우우(WooWoo) - 딥러닝·LLM Agent 개발자 & 테크 강사",
     description:
       "실무형 딥러닝·LLM Agent 엔지니어이자 프리랜서 테크 강사 우우의 공식 포트폴리오.",
@@ -98,7 +98,7 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "Person",
               name: "우우 (WooWoo)",
-              url: "https://woowoo.dev",
+              url: "https://potfolio-ace-761a.vercel.app",
               jobTitle: "딥러닝·LLM Agent 개발자 & 테크 강사",
               description:
                 "실무형 딥러닝·LLM Agent 엔지니어이자 프리랜서 테크 강사",
